@@ -1,0 +1,10 @@
+import json 
+
+with open ("movies.json", "r") as in_file:
+    for line in in_file:
+        print(line)
+        this_movie = json.loads(line)
+        
+        break
+this_movie
+help(json.loads)
